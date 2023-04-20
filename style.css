@@ -10,6 +10,15 @@ h1,h2,h3,h4,h5,h6,p,div,span,a,ul,ol,li{
   padding:0;
 }
 
+.stars {
+  position: absolute;
+}
+
+.hills {
+  position: absolute;
+  bottom: 0;
+}
+
 *, *::after, *::before {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
@@ -45,7 +54,6 @@ body {
   border-top-left-radius: .1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #343650;
-  /* color:#fb6087; */
   color:#FF00FF;
 }
 
@@ -57,7 +65,6 @@ body {
   border-bottom-right-radius: .1em;
   border-bottom-left-radius: .1em;
   background-color: #343650;
-  /* color:#fb6087; */
   color:#FF00FF;
 }
 
@@ -120,7 +127,7 @@ body {
   font-size: 20px;
   margin-top:100px;
   margin-bottom:50px;
-  color:#8486a9;
+  color:#ffffff;
 }
 
 .footer{
@@ -134,7 +141,6 @@ body {
 }
 
 .footer span{
-  /* color:#fb6087; */
   color:#FF00FF;
   font-size:11px;
 }
