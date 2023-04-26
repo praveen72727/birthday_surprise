@@ -195,8 +195,8 @@ body {
 }
 
 .name_div h1 {
-  /* color: darkmagenta; */
-  color:magenta;
+  color: darkmagenta;
+/*   color:magenta; */
   font-size: 23px;
 }
 
@@ -221,6 +221,6 @@ body {
 }
 
 .surprise_span {
-  color: magenta;
+/*   color: magenta; */
   font-size: 20px;
 }
