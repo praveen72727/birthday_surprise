@@ -167,8 +167,7 @@ body {
 }
 
 .footer span {
-  /* color: darkmagenta; */
-  color:magenta;
+  color: darkmagenta;
   font-size: 11px;
 }
 
@@ -221,6 +220,6 @@ body {
 }
 
 .surprise_span {
-/*   color: magenta; */
+  color: darkmagenta;
   font-size: 20px;
 }
