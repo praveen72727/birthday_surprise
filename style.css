@@ -37,23 +37,24 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:100vw;
-  height:100vh;
-  position:absolute;
-  overflow: hidden;
-  z-index: -5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
   top:0;
+  z-index:-5;
+  /* overflow: hidden; */
+
 }
 
 .bg_img_div img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+  /* object-fit: fill; */
 }
 
-body {
+/* body {
   background-color: #1e1f29;
-}
+} */
 
 .flip-card {
   position: relative;
@@ -179,7 +180,7 @@ body {
   /* left: 50%;
   top: 70%;
   transform: translate(-50%, -50%); */
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 .img_surprise_div img {
@@ -195,7 +196,6 @@ body {
 
 .name_div h1 {
   color: darkmagenta;
-/*   color:magenta; */
   font-size: 23px;
 }
 
