@@ -44,6 +44,7 @@ html, body {
   position:absolute;
   overflow: hidden;
   z-index: -5;
+  top:0;
 }
 
 .bg_img_div img {
