@@ -9,7 +9,7 @@ intervalID = setInterval(() => {
     intID = setInterval(f1, 1);
     function f1() {
       clearInterval(intID);
-      location.replace("https://www.google.co.in/");
+      location.replace("https://praveen72727.github.io/happy_birthday/");
       // const contentP = document.querySelector("body");
       // contentP.remove();
 
